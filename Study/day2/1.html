@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+//    for(var i=0;i<=10;i++){
+//        console.log(i);
+//    }
+//    var n=0
+//    while(n<10){
+//        n++;
+//        console.log(n);
+//    }
+   var ary=[1,2,3,4];
+   var obj={name:'zf',age:9};
+   obj.name;
+   //var a='name';
+   //obj.a
+   //obj['a']
+   //obj.[a]-->obj['name']
+  
+   for(var k in obj){
+       //k是指对象中的属性名
+    //    console.log(k);
+    //    console.log(obj.k);//等价于obj['k']
+       console.log(obj[k]);
+   }
+    //对于 && 来说
+    //前边成立给后边；前边不成立给前边
+
+    //对于 || 来说
+    //前边成立给前边；前边不成立给后边
+   var a=0 && 12;
+   var b=0 || 12;
+//    console.log(a);//0
+//    console.log(b);//12
+   Number([1,2]);
+   Number('1,2');
+   parseInt('12a');
+   isNaN();
+   function sum(){
+       arguments//实参集合
+   }
+   sum(1,2,3);
+   
+</script>
